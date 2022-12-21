@@ -237,7 +237,8 @@
                 <div class="row">
                     <center>
                     <div class="col-md-6 item text">
-                        <h2>Iniciar un proyecto</h2>
+                        <h2 class="animate-charcter">Iniciar un proyecto</h2>
+                        <br>
                         <img src="andres.png" style="width: 300px; height: 300px">
                         <p>¿Interesado en trabajar juntos? Deberíamos reunirnos para charlar, escribeme. Compraré el café.</p>
                     </div>
@@ -272,7 +273,42 @@
 
 <script src="https://cdnjs.cloudflare.com/ajax/libs/jquery/3.2.1/jquery.min.js"></script>
 <script src="https://cdnjs.cloudflare.com/ajax/libs/twitter-bootstrap/4.1.3/js/bootstrap.bundle.min.js"></script>
+<!-- Animacion color <style> -->
+<style>
+    .animate-charcter{
+        text-transform: uppercase;
+        background-image: linear-gradient(
+            -225deg,
+            #232557 0%,
+            #44107a 29%,
+            #ff1361 67%,
+            #fff800 100%
+        );
 
+        background-size: auto auto;
+        background-clip: border-box;
+        background-size: 200% auto;
+        color: #fff;
+        background-clip: text;
+        text-fill-color: transparent;
+        -webkit-background-clip: text;
+        -webkit-text-fill-color: transparent;
+        animation: textclip 2s linear infinite;
+        display: inline-block;
+        font-size: 30px;
+    }
+
+    @keyframes textclip {
+        to{
+            background-position: 200% center;
+        }
+        
+    }
+
+</style>
+    
+    
+    
 <style>
     .section.is-long {
     padding-bottom: 14rem;
