@@ -16,6 +16,7 @@
     <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/swiper@8/swiper-bundle.min.css" />
     <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/ionicons/2.0.1/css/ionicons.min.css">
     <link rel="icon" href="logo.png">
+    <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/font-awesome/4.7.0/css/font-awesome.min.css">
     <!-- Link Swiper's CSS -->
     <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/swiper/swiper-bundle.min.css" />
     <!--
@@ -512,28 +513,24 @@
     </script>
 
 
-
-
-
-
-
-
     <footer class="footer-dark" name="abajo">
         <div class="container" id="contacto">
             <div class="row">
                 <center>
                     <div class="col-md-6 item text">
                         <h2 class="animate-charcter">Iniciar un proyecto</h2>
-                        <br>
-                        <img src="andres.png" style="width: 300px; height: 300px">
+                        <div>
+                            <img src="andres.png" style="width: 300px; height: 300px">
+                        </div>
                         <p>¿Interesado en trabajar juntos? Deberíamos reunirnos para charlar, escribeme. Compraré el
                             café.</p>
                     </div>
                 </center>
-                <div class="col item social"><a href="https://www.facebook.com/jairoandres.cabrerarosero/"><i
-                            class="icon ion-social-facebook"></i></a><a href="https://twitter.com/jairoandrescab1"><i
-                            class="icon ion-social-twitter"></i></a><a
-                        href="https://www.youtube.com/channel/UCUGDhoydwR643tUvknBzbtw"><i
+                <!--
+                    <div class="col item social">
+                    <a href="https://www.facebook.com/jairoandres.cabrerarosero/"><i
+                            class="icon ion-social-facebook"></i></a>
+                    <a href="https://www.youtube.com/channel/UCUGDhoydwR643tUvknBzbtw"><i
                             class="icon ion-social-youtube"></i></a>
                     <a href="https://www.instagram.com/jairo6070/"><i class="icon ion-social-instagram"></i></a>
                     <a href="https://wa.me/573234049532?text=Hola!%20Vamos%20por%20en%20ese%20cafe"><i
@@ -543,6 +540,56 @@
                             icon="ion:logo-tiktok"></iconify-icon></a>
 
                 </div>
+                -->
+                <div class="centro">
+                    
+                            <ul>
+                                <a href="https://www.facebook.com/jairoandres.cabrerarosero/">
+                                    <li style="--i:#a955ff;--j:#ea51ff;">
+                                        <span class="icon"><i class="fa fa-facebook"></i></span>
+                                        <span class="titulo">facebook</span>
+                                    </li>
+                                </a>
+
+                                <a href="https://www.instagram.com/jairo6070/">
+                                    <li style="--i:#FFA9C6;--j:#F434E2;">
+                                        <span class="icon"><i class="fa fa-instagram"></i></span>
+                                        <span class="titulo">instagram</span>
+                                    </li>
+                                </a>
+
+                                <a href="https://wa.me/573234049532?text=Hola!%20Vamos%20por%20ese%20cafe">
+                                    <li style="--i:#86be6b;--j:#1baf16;">
+                                        <span class="icon"><i class="fa fa-whatsapp"></i></span>
+                                        <span class="titulo">whatsapp</span>
+                                    </li>
+                                </a>
+
+                                <a href="https://www.linkedin.com/in/jairo-andres-cabrera-rosero-9a27a8144/">
+                                    <li style="--i:#80FF72;--j:#5ec3d4;">
+                                        <span class="icon"><i class="fa fa-linkedin"></i></span>
+                                        <span class="titulo">linkedin</span>
+                                    </li>
+                                </a>
+
+                                <a href="https://github.com/Andres2829?tab=repositories">
+                                    <li style="--i:#a955ff;--j:#ea51ff;">
+                                        <span class="icon"><i class="icon ion-social-github"></i></span>
+                                        <span class="titulo">github</span>
+                                    </li>
+                                </a>
+
+                                <a href="https://www.tiktok.com/@anddres2829">
+                                    <li style="--i:#56CCF2;--j:#2F80ED;">
+                                        <span class="icon"><i><iconify-icon
+                                                    icon="ion:logo-tiktok"></iconify-icon></i></span>
+                                        <span class="titulo">tiktok</span>
+                                    </li>
+                                </a>
+                            </ul>
+                </div>
+
+
             </div>
             <center>
                 <a href="#"><img src="logo.png" style="width: 160px; height: 60px"></a>
@@ -550,13 +597,6 @@
             <p class="copyright">Creado por: Andrés Cabrera © 2022</p>
 
     </footer>
-
-
-
-
-
-
-
 </body>
 
 </html>
@@ -1120,7 +1160,8 @@
         }
     }
 
-    .footer-dark .item.social>a {
+    /*
+   .footer-dark .item.social>a {
         font-size: 20px;
         width: 36px;
         height: 36px;
@@ -1137,6 +1178,10 @@
     .footer-dark .item.social>a:hover {
         opacity: 0.9;
     }
+   
+   */
+
+
 
     .footer-dark .copyright {
         text-align: center;
@@ -1786,5 +1831,114 @@
 <style>
     body {
         font-family: 'Nunito', sans-serif;
+    }
+</style>
+
+
+<!--Redes sociales cambio-->
+<style>
+    @import url('https://fons.googleapis.com/css2?family=Poppins:wght@300;400;600;700;800;900&display=swap');
+
+    * {
+        margin: 0;
+        padding: 0;
+        box-sizing: border-box;
+        font-family: 'Poppins', sans-serif;
+    }
+
+    ul {
+        position: relative;
+        display: flex;
+        gap: 25px
+    }
+
+    ul li {
+        position: relative;
+        list-style: none;
+        width: 40px;
+        height: 40px;
+        border-radius: 60px;
+        cursor: pointer;
+        display: flex;
+        justify-content: center;
+        align-items: center;
+        box-shadow: 0 10px 25px rgba(0, 0, 0, 0.1);
+        transition: 0.5s;
+    }
+
+    ul li:hover {
+        width: 180px;
+        box-shadow: 0 10px 25px rgba(0, 0, 0, 0);
+    }
+
+    ul li::before {
+        content: '';
+        position: absolute;
+        inset: 0;
+        border-radius: 50px;
+        background: linear-gradient(45deg, var(--i), var(--j));
+        opacity: 0;
+        transition: 0.5s;
+
+    }
+
+    ul li:hover::before {
+        opacity: 1;
+    }
+
+    ul li::after {
+        content: '';
+        position: absolute;
+        top: 10px;
+        width: 80%;
+        height: 100%;
+        border-radius: 60px;
+        background: linear-gradient(45deg, var(--i), var(--j));
+        opacity: 0;
+        transition: 0.5s;
+        z-index: -1;
+        filter: blur(15px);
+    }
+
+    ul li:hover::after {
+        opacity: 0.5;
+    }
+
+    ul li i {
+        color: #777;
+        font-size: 1.75em !important;
+        transition: 0.5s;
+        transition-delay: 0.25s;
+    }
+
+    ul li:hover i {
+        transform: scale(0);
+        font-size: 1.75em;
+        transition-delay: 0.25s;
+    }
+
+    ul li span {
+        position: absolute;
+    }
+
+    ul li .titulo {
+        color: #fff;
+        font-size: 1.1em !important;
+        text-transform: uppercase;
+        letter-spacing: 0.1em;
+        transform: scale(0);
+        transition: 0.5s;
+        transition-delay: 0s;
+    }
+
+    ul li:hover .titulo {
+        transform: scale(1);
+        transition-delay: 0.25s;
+    }
+
+    .centro {
+        display: flex;
+        justify-content: center;
+        align-items: center;
     }
 </style>
